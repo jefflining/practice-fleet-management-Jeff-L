@@ -16,11 +16,11 @@ return `${this.type} is a ${this.year} ${this.make} ${this.model} with ${this.mi
 }
 }
 
-const myCar = new Vehicle("car", "Honda", "Accord", 2018);
+let myCar = new Vehicle("Car", "Honda", "Accord", 2018);
 
-const myTruck = new Vehicle("truck", "Ford", "Ranger", 2023);
+let myTruck = new Vehicle("Truck", "Ford", "Ranger", 2023);
 
-const myMotorcycle = new Vehicle("motorcycle", "Honda", "CBR600", 2025);
+let myMotorcycle = new Vehicle("Motorcycle", "Honda", "CBR600", 2025);
 
 myCar.drive(20);  
 
